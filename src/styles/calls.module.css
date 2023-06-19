@@ -1,0 +1,161 @@
+
+@font-face {
+    font-family: 'AvenirLTStd-Black';; 
+    src: url('../font/AvenirLTStd-Book.otf') format('opentype'); /* Specify the path to the font file */
+    /* Add more font formats if necessary */
+  }
+
+  body {
+    font-family: 'AvenirLTStd-Black', sans-serif;
+  }
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-grow: 0; /* Prevent stretching */
+    /* height: 80%; */
+    /* width:80%; */
+  /* }  */
+table {
+    width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 1200px; /* Adjust the maximum width to your desired value */
+  margin: auto;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 4px;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    height: 36px;
+    
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+  .archived {
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+  }
+  
+  .not-archived {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+  }
+  .archivedCell {
+  background-color: green;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.notArchivedCell {
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.calldetails {
+    margin-bottom: 20px;
+  }
+  
+.notesection {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+.divider {
+    border: none;
+    border-top: 1px solid gray;
+    margin: 10px 0;
+  }
+  
+.notefield {
+    width: 100%;
+  }
+
+  .filter-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .filter-label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
+  .filter-select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  /* Styling the dropdown arrow */
+  .filter-select::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px;
+    border-color: #888888 transparent transparent transparent;
+    pointer-events: none;
+  }
+  
+  /* Styling the dropdown when it's open */
+  .filter-select.open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .filter-select.open::after {
+    transform: translateY(-50%) rotate(-180deg);
+  }
+  
+  /* Styling the dropdown options */
+  .filter-option {
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .filter-option:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .filter-option[selected] {
+    background-color: #e0e0e0;
+    font-weight: bold;
+  }
+
+  

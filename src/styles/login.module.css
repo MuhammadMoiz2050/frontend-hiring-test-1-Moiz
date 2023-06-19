@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'AvenirLTStd-Black';; 
+  src: url('../font/AvenirLTStd-Book.otf') format('opentype'); /* Specify the path to the font file */
+  /* Add more font formats if necessary */
+}
+
+body {
+  font-family: 'AvenirLTStd-Black', sans-serif;
+}
+
+.parent {
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+  }
+  
+  .loginbox {
+    width: 500px;
+    padding: 20px;
+    background-color: #ffffff; /* Set the background color of the login box to white */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .loginbutton {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    background-color: #4f46f8;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .loginbutton:hover {
+    background-color: #0048ad;
+  }
+  
+  .title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .inputfield {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+  }
+  
+  .iconcolor {
+    color: black;
+  }
+  
+  .topbar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    height: 70px;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    height: 25px;
+    width: auto;
+    background-color: #ffffff; 
+  }
+  
+  .menu {
+    margin-left: auto;
+  }
+  
+  .placeholder {
+    margin-left: 8px;
+  }
+  
+  .icon {
+    margin-right: 8px;
+  }

@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'AvenirLTStd-Black';; 
+    src: url('../font/AvenirLTStd-Book.otf') format('opentype'); /* Specify the path to the font file */
+    /* Add more font formats if necessary */
+  }
+
+  body {
+    font-family: 'AvenirLTStd-Black', sans-serif;
+  }
+  .parent {
+    background-color: #ffffff;
+  }
+  
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 70px;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    margin-right: auto;
+  }
+  
+  .logo img {
+    height: 25px;
+    width: auto;
+    background-color: #ffffff;
+  }
+  
+  .logoutButton {
+    background-color: #4f46f8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .logoutButton:hover {
+    background-color: darkblue;
+  }

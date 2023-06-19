@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'AvenirLTStd-Black';; 
+    src: url('../font/AvenirLTStd-Book.otf') format('opentype'); /* Specify the path to the font file */
+    /* Add more font formats if necessary */
+  }
+
+  body {
+    font-family: 'AvenirLTStd-Black', sans-serif;
+  }
+.paginationWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .pagination {
+    margin-top: 10%;
+  }
+  
+  .paginationList {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  
+  .pagination-link {
+    border-radius: 50%;
+    padding: 0.25rem 0.5rem;
+    transition: background-color 0.3s ease;
+  
+    /* Add additional styles as needed */
+  }
+  
+  .pagination-link:hover {
+    background-color: #e0e0e0;
+    color: black;
+  }
+  
+  .currentPage {
+    background-color: #4f46f8;
+    color: white;
+  }
+  
+  .paginationWrapper .pagination-previous,
+  .paginationWrapper .pagination-next {
+    color: black !important;
+  }
+  
+  .paginationresults {
+    margin-top: -10px;
+    margin-bottom: 15px;
+    color:rgb(143, 141, 141);
+  }
+  .paginationArrow {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: black !important; /* Add this line to set the button color to black */
+  }
+  
+  .paginationArrow:disabled {
+    cursor: not-allowed;
+  }
+  
+  .paginationArrow .icon {
+    margin-right: 0.5rem;
+  }
+  
+  .paginationArrow:disabled .icon {
+    opacity: 0.5;
+  }
+  
+  .paginationArrow:disabled:hover {
+    background-color: transparent;
+  }
+  
